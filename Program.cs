@@ -18,6 +18,10 @@ FillStringArray(stringArray); //Запускаем функцию заполне
 Console.WriteLine("\nРезультат: ");
 Console.Write("Введенные данные ");
 PrintArray(stringArray); //Выводим на экран введенные данные пользователем
+Console.Write(" -> ");
+Console.Write("Итоговые данные ");
+PrintArray(ResultArray(stringArray)); //Выполняем условие задачи (длина меньше или равна 3) и выводим на экран только те элементы, 
+//которые подходят под условие задачи
 
 //----------------------------------------------------------------------------
 
@@ -65,4 +69,28 @@ void PrintArray(string[] array)
         Console.Write(string.Join("\", \"", array));
         Console.Write("\"]");
     }
+}
+
+//Выбирает только те элементы, длина которых меньше или равна 3
+string[] ResultArray(string[] stringArray)
+{
+    int n = 0;
+    //Вычисляем количество элементов, длина которых меньше или равна 3
+    for (int i = 0; i < stringArray.Length; i++)
+    {
+        if (stringArray[i].Length <= 3)
+            n++;
+    }
+    string[] resultArray = new string[n]; //Создаем новый массив длиной, равной количеству элементов, длина которых меньше или равна 3
+    int m = 0;
+    //Заполняем новый массив только теми элементами, длина которых меньше или равна 3 
+    for (int i = 0; i < stringArray.Length; i++)
+    {
+        if (stringArray[i].Length <= 3)
+        {
+            resultArray[m] = stringArray[i];
+            m++;
+        }
+    }
+    return resultArray;
 }
