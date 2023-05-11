@@ -71,26 +71,21 @@ void PrintArray(string[] array)
     }
 }
 
-//Выбирает только те элементы, длина которых меньше или равна 3
+//Создает новый массив и заполняет только теми элементами, длина которых меньше или равна 3
 string[] ResultArray(string[] stringArray)
 {
-    int n = 0;
-    //Вычисляем количество элементов, длина которых меньше или равна 3
-    for (int i = 0; i < stringArray.Length; i++)
-    {
-        if (stringArray[i].Length <= 3)
-            n++;
-    }
-    string[] resultArray = new string[n]; //Создаем новый массив длиной, равной количеству элементов, длина которых меньше или равна 3
-    int m = 0;
+    int count = 0;
+    int length = stringArray.Length;
+    string[] resultArray = new string[length]; //Создаем новый массив 
     //Заполняем новый массив только теми элементами, длина которых меньше или равна 3 
     for (int i = 0; i < stringArray.Length; i++)
     {
         if (stringArray[i].Length <= 3)
         {
-            resultArray[m] = stringArray[i];
-            m++;
+            resultArray[count] = stringArray[i];
+            count++;
         }
     }
+    Array.Resize(ref resultArray, count); //Изменяем количество элементов в массиве до указанной величины (количество получившихся элементов, длина которых меньше или равна 3).
     return resultArray;
 }
