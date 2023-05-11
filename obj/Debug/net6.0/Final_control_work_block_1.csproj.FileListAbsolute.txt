@@ -1,0 +1,15 @@
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\bin\Debug\net6.0\Final_control_work_block_1.exe
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\bin\Debug\net6.0\Final_control_work_block_1.deps.json
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\bin\Debug\net6.0\Final_control_work_block_1.runtimeconfig.json
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\bin\Debug\net6.0\Final_control_work_block_1.dll
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\bin\Debug\net6.0\Final_control_work_block_1.pdb
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.csproj.AssemblyReference.cache
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.AssemblyInfoInputs.cache
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.AssemblyInfo.cs
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.csproj.CoreCompileInputs.cache
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.dll
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\refint\Final_control_work_block_1.dll
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.pdb
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\Final_control_work_block_1.genruntimeconfig.cache
+C:\Geek\Git\Final_control_work_block_1\Final_control_work_block_1\obj\Debug\net6.0\ref\Final_control_work_block_1.dll
